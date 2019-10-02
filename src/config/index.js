@@ -9,7 +9,7 @@ module.exports = {
     },
     ARANGODB: {
         PORT: 8529,
-        SERVER: 'server.pickfast.in',
+        SERVER: 'db.pickfast.in',
         DATABASE: 'pickfast',
         USERNAME: "",
         PASSWORD: "",
