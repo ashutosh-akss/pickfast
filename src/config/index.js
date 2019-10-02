@@ -9,10 +9,10 @@ module.exports = {
     },
     ARANGODB: {
         PORT: 8529,
-        SERVER: 'localhost',
+        SERVER: 'server.pickfast.in',
         DATABASE: 'pickfast',
-        USERNAME: process.env.ARANGO_USERNAME,
-        PASSWORD: process.env.ARANGO_PASSWORD,
+        USERNAME: "",
+        PASSWORD: "",
         COLLECTIONS: {
             users: {
                 type: arango.DOCUMENT,

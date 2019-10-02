@@ -1,0 +1,1 @@
+sudo scp -i ~/Downloads/pickfastin-aws.pem -r ./* ubuntu@13.233.20.171://home/ubuntu/pickfast

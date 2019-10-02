@@ -4,6 +4,8 @@ const bodyParser = require('body-parser')
 const config = require('./src/config');
 const mqtt = require('./src/mqtt');
 const Router = require('./src/router');
+const environment = require('dotenv');
+environment.config();
 
 const {HTTP} = config;
 
